@@ -27,7 +27,8 @@
         <!-- Extra plugin css -->
         <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
         <link href="vendors/magnifc-popup/magnific-popup.css" rel="stylesheet">
-        <link href="vendors/lightbox/simpleLightbox.css" rel="stylesheet">
+        <link href="vendors/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+        <link href="vendors/nice-select/css/nice-select.css" rel="stylesheet">
         
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
@@ -124,152 +125,238 @@
         <section class="banner_area">
         	<div class="container">
         		<div class="banner_text">
-        			<h3>Portfolio full width</h3>
+        			<h3>Cupcake</h3>
         			<ul>
         				<li><a href="index.html">Home</a></li>
-        				<li><a href="portfolio.html">Portfolio</a></li>
+        				<li><a href="shop.html">Shop</a></li>
         			</ul>
         		</div>
         	</div>
         </section>
         <!--================End Main Header Area =================-->
         
-        <!--================Portfolio Area Area =================-->
-		<section class="portfolio_area p_100">
-			<div class="container">
-				<div class="portfolio_filter">
-					<ul class="list_style">
-						<li class="active" data-filter="*"><a href="#">All</a></li>
-						<li data-filter=".cake"><a href="#">Cakes</a></li>
-						<li data-filter=".bakery"><a href="#">Bakery</a></li>
-						<li data-filter=".past"><a href="#">Pastries</a></li>
-						<li data-filter=".choco"><a href="#">Chocolates</a></li>
-						<li data-filter=".bread"><a href="#">Breads</a></li>
-					</ul>
-				</div>
-				<div class="row grid_portfolio_area imageGallery1">
-					<!-- Portfolio Item 1 -->
-					<div class="col-md-4 col-6 cake bakery bread">
-						<div class="portfolio_item">
-							<div class="portfolio_img">
-								<a class="light" href="img/portfolio/portfolio-1.jpg">
-									<img class="img-fluid" src="img/portfolio/portfolio-1.jpg" alt="Delicious Chocolate Pastry">
-								</a>
+        <!--================Product Area =================-->
+        <section class="product_area p_100">
+        	<div class="container">
+        		<div class="row product_inner_row">
+        			<div class="col-lg-9">
+        				<div class="row m0 product_task_bar"> 
+							<div class="product_task_inner"> 
+								<div class="float-left">
+									<a class="active" href="#"><i class="fa fa-th-large" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-th-list" aria-hidden="true"></i></a>
+									<span>Showing 1 - 10 of 55 results</span>
+								</div>
+								<div class="float-right">
+									<h4>Sort by :</h4>
+									<select class="short">
+										<option data-display="Default">Default</option>
+										<option value="1">Default</option>
+										<option value="2">Default</option>
+										<option value="4">Default</option>
+									</select>
+								</div>
 							</div>
-							<div class="portfolio_text">
-								<a href="#"><h4>Delicious Chocolate Pastry</h4></a>
+        				</div>
+        				<div class="row product_item_inner">
+							<div class="col-lg-4 col-md-4 col-6">
+								<div class="cake_feature_item">
+									<div class="cake_img">
+										<img src="img/cupcake/Chocolate Fudge Cupcake.jpeg" alt="">
+									</div>
+									<div class="cake_text">
+										<h4>₹250</h4>
+										<h3>Chocolate Fudge Cupcake</h3>
+										<a class="pest_btn" href="#">Order Now</a>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<!-- Portfolio Item 2 -->
-					<div class="col-md-4 col-6 bakery choco">
-						<div class="portfolio_item">
-							<div class="portfolio_img">
-								<a class="light" href="img/portfolio/portfolio-2.jpg">
-									<img class="img-fluid" src="img/portfolio/portfolio-2.jpg" alt="Rich Chocolate Pastry">
-								</a>
+							<div class="col-lg-4 col-md-4 col-6">
+								<div class="cake_feature_item">
+									<div class="cake_img">
+										<img src="img/cupcake/Vanilla Berry Cupcake.jpeg" alt="">
+									</div>
+									<div class="cake_text">
+										<h4>₹300</h4>
+										<h3>Vanilla Berry Cupcake</h3>
+										<a class="pest_btn" href="#">Order Now</a>
+									</div>
+								</div>
 							</div>
-							<div class="portfolio_text">
-								<a href="#"><h4>Rich Chocolate Pastry</h4></a>
+							<div class="col-lg-4 col-md-4 col-6">
+								<div class="cake_feature_item">
+									<div class="cake_img">
+										<img src="img/cupcake/Red Velvet Cupcake.jpeg" alt="">
+									</div>
+									<div class="cake_text">
+										<h4>₹280</h4>
+										<h3>Red Velvet Cupcake</h3>
+										<a class="pest_btn" href="#">Order Now</a>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<!-- Portfolio Item 3 -->
-					<div class="col-md-4 col-6 cake choco">
-						<div class="portfolio_item">
-							<div class="portfolio_img">
-								<a class="light" href="img/portfolio/portfolio-3.jpg">
-									<img class="img-fluid" src="img/portfolio/portfolio-3.jpg" alt="Artisan Chocolate Pastry">
-								</a>
+							<div class="col-lg-4 col-md-4 col-6">
+								<div class="cake_feature_item">
+									<div class="cake_img">
+										<img src="img/cake-feature/c-feature-4.jpg" alt="">
+									</div>
+									<div class="cake_text">
+										<h4>₹350</h4>
+										<h3>Caramel Crunch Cupcake</h3>
+										<a class="pest_btn" href="#">Order Now</a>
+									</div>
+								</div>
 							</div>
-							<div class="portfolio_text">
-								<a href="#"><h4>Artisan Chocolate Pastry</h4></a>
+							<div class="col-lg-4 col-md-4 col-6">
+								<div class="cake_feature_item">
+									<div class="cake_img">
+										<img src="img/cupcake/Lemon Zest Cupcake.jpeg" alt="">
+									</div>
+									<div class="cake_text">
+										<h4>₹320</h4>
+										<h3>Lemon Zest Cupcake</h3>
+										<a class="pest_btn" href="#">Order Now</a>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<!-- Portfolio Item 4 -->
-					<div class="col-md-4 col-6 cake choco">
-						<div class="portfolio_item">
-							<div class="portfolio_img">
-								<a class="light" href="img/portfolio/portfolio-4.jpg">
-									<img class="img-fluid" src="img/portfolio/portfolio-4.jpg" alt="Decadent Chocolate Pastry">
-								</a>
-							</div>
-							<div class="portfolio_text">
-								<a href="#"><h4>Decadent Chocolate Pastry</h4></a>
-							</div>
-						</div>
-					</div>
-					<!-- Portfolio Item 5 -->
-					<div class="col-md-4 col-6 bakery past bread">
-						<div class="portfolio_item">
-							<div class="portfolio_img">
-								<a class="light" href="img/portfolio/portfolio-5.jpg">
-									<img class="img-fluid" src="img/portfolio/portfolio-5.jpg" alt="Exquisite Chocolate Pastry">
-								</a>
-							</div>
-							<div class="portfolio_text">
-								<a href="#"><h4>Exquisite Chocolate Pastry</h4></a>
-							</div>
-						</div>
-					</div>
-					<!-- Portfolio Item 6 -->
-					<div class="col-md-4 col-6 past choco">
-						<div class="portfolio_item">
-							<div class="portfolio_img">
-								<a class="light" href="img/portfolio/portfolio-6.jpg">
-									<img class="img-fluid" src="img/portfolio/portfolio-6.jpg" alt="Elegant Chocolate Pastry">
-								</a>
-							</div>
-							<div class="portfolio_text">
-								<a href="#"><h4>Elegant Chocolate Pastry</h4></a>
-							</div>
-						</div>
-					</div>
-					<!-- Portfolio Item 7 -->
-					<div class="col-md-4 col-6 bakery bread">
-						<div class="portfolio_item">
-							<div class="portfolio_img">
-								<a class="light" href="img/portfolio/portfolio-7.jpg">
-									<img class="img-fluid" src="img/portfolio/portfolio-7.jpg" alt="Gourmet Chocolate Pastry">
-								</a>
-							</div>
-							<div class="portfolio_text">
-								<a href="#"><h4>Gourmet Chocolate Pastry</h4></a>
+							<div class="col-lg-4 col-md-4 col-6">
+								<div class="cake_feature_item">
+									<div class="cake_img">
+										<img src="img/cupcake/Mint Chocolate Cupcake.jpeg"">
+									</div>
+									<div class="cake_text">
+										<h4>₹270</h4>
+										<h3>Mint Chocolate Cupcake</h3>
+										<a class="pest_btn" href="#">Order Now</a>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!-- Portfolio Item 8 -->
-					<div class="col-md-4 col-6 past bread">
-						<div class="portfolio_item">
-							<div class="portfolio_img">
-								<a class="light" href="img/portfolio/portfolio-8.jpg">
-									<img class="img-fluid" src="img/portfolio/portfolio-8.jpg" alt="Premium Chocolate Pastry">
-								</a>
-							</div>
-							<div class="portfolio_text">
-								<a href="#"><h4>Premium Chocolate Pastry</h4></a>
-							</div>
-						</div>
-					</div>
-					<!-- Portfolio Item 9 -->
-					<div class="col-md-4 col-6 bakery past bread">
-						<div class="portfolio_item">
-							<div class="portfolio_img">
-								<a class="light" href="img/portfolio/portfolio-9.jpg">
-									<img class="img-fluid" src="img/portfolio/portfolio-9.jpg" alt="Luxurious Chocolate Pastry">
-								</a>
-							</div>
-							<div class="portfolio_text">
-								<a href="#"><h4>Luxurious Chocolate Pastry</h4></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-        <!--================End Portfolio Area Area =================-->
+						
+        				<!-- <div class="product_pagination">
+        					<div class="left_btn">
+        						<a href="#"><i class="lnr lnr-arrow-left"></i> New posts</a>
+        					</div>
+        					<div class="middle_list">
+								<nav aria-label="Page navigation example">
+									<ul class="pagination">
+									<li class="page-item"><a class="page-link" href="shop.html">1</a></li>
+									<li class="page-item active"><a class="page-link" href="cake.html">2</a></li>
+									<li class="page-item"><a class="page-link" href="cake.html">3</a></li>
+									<li class="page-item"><a class="page-link" href="#">...</a></li>
+									<li class="page-item"><a class="page-link" href="#">12</a></li>
+									</ul>
+								</nav>
+        					</div>
+        					<div class="right_btn"><a href="#">Older posts <i class="lnr lnr-arrow-right"></i></a></div>
+        				</div> -->
+        			</div>
+        			<div class="col-lg-3">
+        				<div class="product_left_sidebar">
+        					<!-- <aside class="left_sidebar search_widget">
+        						<div class="input-group">
+									<input type="text" class="form-control" placeholder="Enter Search Keywords">
+									<div class="input-group-append">
+										<button class="btn" type="button"><i class="icon icon-Search"></i></button>
+									</div>
+								</div>
+        					</aside> -->
+        					<aside class="left_sidebar p_catgories_widget">
+        						<div class="p_w_title">
+        							<h3>Product Categories</h3>
+        						</div>
+        						<ul class="list_style">
+        							<li><a href="Cupcake.html">Cupcake (06)</a></li>
+        							<li><a href="Chocolate.html">Chocolate (05)</a></li>
+        							<li><a href="Wedding Cake.html">Wedding Cake (04)</a></li>
+        						</ul>
+        					</aside>
+        					<!-- <aside class="left_sidebar p_price_widget">
+        						<div class="p_w_title">
+        							<h3>Filter By Price</h3>
+        						</div>
+        						<div class="filter_price">
+									<div id="slider-range"></div>
+       								<label for="amount">Price range:</label>
+									<input type="text" id="amount" readonly />
+       								<a href="#">Filter</a>
+        						</div>
+        					</aside> -->
+        					<!-- <aside class="left_sidebar p_sale_widget">
+        						<div class="p_w_title">
+        							<h3>Top Sale Products</h3>
+        						</div>
+        						<div class="media">
+        							<div class="d-flex">
+        								<img src="img/product/sale-product/s-product-1.jpg" alt="">
+        							</div>
+        							<div class="media-body">
+        								<a href="#"><h4>Brown Cake</h4></a>
+        								<ul class="list_style">
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        								</ul>
+        								<h5>₹290</h5>
+        							</div>
+        						</div>
+        						<div class="media">
+        							<div class="d-flex">
+        								<img src="img/product/sale-product/s-product-2.jpg" alt="">
+        							</div>
+        							<div class="media-body">
+        								<a href="#"><h4>Brown Cake</h4></a>
+        								<ul class="list_style">
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        								</ul>
+        								<h5>₹290</h5>
+        							</div>
+        						</div>
+        						<div class="media">
+        							<div class="d-flex">
+        								<img src="img/product/sale-product/s-product-3.jpg" alt="">
+        							</div>
+        							<div class="media-body">
+        								<a href="#"><h4>Brown Cake</h4></a>
+        								<ul class="list_style">
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        								</ul>
+        								<h5>₹290</h5>
+        							</div>
+        						</div>
+        						<div class="media">
+        							<div class="d-flex">
+        								<img src="img/product/sale-product/s-product-4.jpg" alt="">
+        							</div>
+        							<div class="media-body">
+        								<a href="#"><h4>Brown Cake</h4></a>
+        								<ul class="list_style">
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        									<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        								</ul>
+        								<h5>₹290</h5>
+        							</div>
+        						</div>
+        					</aside> -->
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Product Area =================-->
         
         <!--================Newsletter Area =================-->
         <!-- <section class="newsletter_area">
@@ -296,7 +383,7 @@
         <!--================End Newsletter Area =================-->
         
         <!--================Footer Area =================-->
-        <footer class="footer_area">
+		<footer class="footer_area">
 			<div class="footer_widgets">
 				<div class="container">
 					<div class="row footer_wd_inner">
