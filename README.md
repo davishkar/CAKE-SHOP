@@ -1,7 +1,6 @@
 # Cake Baker
 
-![Cake Baker](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=livechat)
-
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=livechat)](https://davishkar.github.io/CAKE-SHOP/)
 
 ## Project Overview
 Cake Baker is a dynamic and responsive web application designed for a Cake Shop business. It allows customers to browse a variety of cakes, view details, provide feedback, and make purchases through an intuitive user interface.
